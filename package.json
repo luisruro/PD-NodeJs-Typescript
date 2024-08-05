@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.1.0",
+    "@types/validator": "^13.12.0",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
@@ -22,7 +23,9 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mysql2": "^3.11.0",
+    "reflect-metadata": "^0.2.2",
     "sequelize": "^6.37.3",
+    "sequelize-typescript": "^2.1.6",
     "tsyringe": "^4.8.0"
   }
 }
