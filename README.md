@@ -10,3 +10,5 @@
 7. npm install sequelize @types/sequelize
 8. npm install tsyringe - **Container de inyección de dependencias**
 9. npx tsc --init - **Inicializar typescript**
+10. npm install --save-dev @types/node @types/validator
+11. npm install sequelize reflect-metadata sequelize-typescript

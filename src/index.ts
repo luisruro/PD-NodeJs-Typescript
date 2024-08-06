@@ -1,14 +1,14 @@
 import express from "express";
 import sequelize from "./config/db";
 import dotenv from "dotenv";
-//import router from "./routes/Router";
+import router from "./routes/Router";
 
 dotenv.config();
 
 const PORT = process.env.PORT || 3100;
 const app = express();
 app.use(express.json());
-//app.use("/api", router);
+app.use("/api", router);
 
 const runServer = async () => {
   try {
