@@ -15,7 +15,6 @@ export default class ProductService {
     }
 
     async createProducts(product: Partial<Product>) { 
-        console.log(2);
         return await this.productRepository.create(product);
     }
 

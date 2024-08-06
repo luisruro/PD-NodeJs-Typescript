@@ -15,7 +15,6 @@ export default class UserService {
     }
 
     async createUsers(user: Partial<User>) { 
-        console.log(2);
         return await this.userRepository.create(user);
     }
 
